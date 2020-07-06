@@ -1,2 +1,2 @@
-# iOSConferences with CocoaPods
-The project created within the Use CocoaPods in your project.
+# iOSConferences with Unit tests
+The project created within the Unit testing in AppCode tutorial.

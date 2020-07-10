@@ -2,7 +2,7 @@
 //  iOSConferencesTests.swift
 //  iOSConferencesTests
 //
-//  Created by Marianna Kononenko on 22.06.20.
+//  Created by jsmith on 22.06.20.
 //  Copyright © 2020 JetBrains. All rights reserved.
 //
 

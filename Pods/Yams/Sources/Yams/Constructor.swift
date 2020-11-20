@@ -77,7 +77,7 @@ extension Constructor {
         .float: Double.construct,
         .null: NSNull.construct,
         .int: MemoryLayout<Int>.size == 8 ? Int.construct : { Int.construct(from: $0) ?? Int64.construct(from: $0) },
-        // http://yaml.org/type/index.html
+        // https://yaml.org/type/index.html
         .binary: Data.construct,
         .timestamp: Date.construct
     ]
@@ -85,7 +85,7 @@ extension Constructor {
     /// The default `Tag.Name` to `Node.Mapping` map.
     public static let defaultMappingMap: MappingMap = [
         .map: [AnyHashable: Any].construct_mapping,
-        // http://yaml.org/type/index.html
+        // https://yaml.org/type/index.html
         .set: Set<AnyHashable>.construct_set
         // .merge is supported in `[AnyHashable: Any].construct_mapping`.
         // .value is supported in `String.construct` and `[AnyHashable: Any].construct_mapping`.
@@ -94,7 +94,7 @@ extension Constructor {
     /// The default `Tag.Name` to `Node.Sequence` map.
     public static let defaultSequenceMap: SequenceMap = [
         .seq: [Any].construct_seq,
-        // http://yaml.org/type/index.html
+        // https://yaml.org/type/index.html
         .omap: [Any].construct_omap,
         .pairs: [Any].construct_pairs
     ]

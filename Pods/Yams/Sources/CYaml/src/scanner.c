@@ -4,7 +4,7 @@
  * ************
  *
  * The following notes assume that you are familiar with the YAML specification
- * (http://yaml.org/spec/cvs/current.html).  We mostly follow it, although in
+ * (https://yaml.org/spec/cvs/current.html).  We mostly follow it, although in
  * some cases we are less restrictive that it requires.
  *
  * The process of transforming a YAML stream into a sequence of events is
@@ -3435,7 +3435,7 @@ yaml_parser_scan_plain_scalar(yaml_parser_t *parser, yaml_token_t *token)
         {
             /* Check for "x:" + one of ',?[]{}' in the flow context. TODO: Fix the test "spec-08-13".
              * This is not completely according to the spec
-             * See http://yaml.org/spec/1.1/#id907281 9.1.3. Plain
+             * See https://yaml.org/spec/1.1/#id907281 9.1.3. Plain
              */
 
             if (parser->flow_level

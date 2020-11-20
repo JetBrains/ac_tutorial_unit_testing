@@ -1,4 +1,4 @@
-![](http://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)
+![](https://f.cl.ly/items/0r1E192C1R0b2g2Q3h2w/QuickLogo_Color.png)
 
 [![Build Status](https://travis-ci.org/Quick/Quick.svg?branch=master)](https://travis-ci.org/Quick/Quick)
 [![CocoaPods](https://img.shields.io/cocoapods/v/Quick.svg)](https://cocoapods.org/pods/Quick)

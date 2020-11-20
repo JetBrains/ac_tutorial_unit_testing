@@ -117,7 +117,7 @@ extension Tag.Name: Hashable {
 #endif
 }
 
-// http://www.yaml.org/spec/1.2/spec.html#Schema
+// https://www.yaml.org/spec/1.2/spec.html#Schema
 extension Tag.Name {
     // Special
     /// Tag should be resolved by value.
@@ -126,37 +126,37 @@ extension Tag.Name {
     public static let nonSpecific: Tag.Name = "!"
 
     // Failsafe Schema
-    /// "tag:yaml.org,2002:str" <http://yaml.org/type/str.html>
+    /// "tag:yaml.org,2002:str" <https://yaml.org/type/str.html>
     public static let str: Tag.Name = "tag:yaml.org,2002:str"
-    /// "tag:yaml.org,2002:seq" <http://yaml.org/type/seq.html>
+    /// "tag:yaml.org,2002:seq" <https://yaml.org/type/seq.html>
     public static let seq: Tag.Name  = "tag:yaml.org,2002:seq"
-    /// "tag:yaml.org,2002:map" <http://yaml.org/type/map.html>
+    /// "tag:yaml.org,2002:map" <https://yaml.org/type/map.html>
     public static let map: Tag.Name  = "tag:yaml.org,2002:map"
     // JSON Schema
-    /// "tag:yaml.org,2002:bool" <http://yaml.org/type/bool.html>
+    /// "tag:yaml.org,2002:bool" <https://yaml.org/type/bool.html>
     public static let bool: Tag.Name  = "tag:yaml.org,2002:bool"
-    /// "tag:yaml.org,2002:float" <http://yaml.org/type/float.html>
+    /// "tag:yaml.org,2002:float" <https://yaml.org/type/float.html>
     public static let float: Tag.Name  =  "tag:yaml.org,2002:float"
-    /// "tag:yaml.org,2002:null" <http://yaml.org/type/null.html>
+    /// "tag:yaml.org,2002:null" <https://yaml.org/type/null.html>
     public static let null: Tag.Name  = "tag:yaml.org,2002:null"
-    /// "tag:yaml.org,2002:int" <http://yaml.org/type/int.html>
+    /// "tag:yaml.org,2002:int" <https://yaml.org/type/int.html>
     public static let int: Tag.Name  = "tag:yaml.org,2002:int"
-    // http://yaml.org/type/index.html
-    /// "tag:yaml.org,2002:binary" <http://yaml.org/type/binary.html>
+    // https://yaml.org/type/index.html
+    /// "tag:yaml.org,2002:binary" <https://yaml.org/type/binary.html>
     public static let binary: Tag.Name  = "tag:yaml.org,2002:binary"
-    /// "tag:yaml.org,2002:merge" <http://yaml.org/type/merge.html>
+    /// "tag:yaml.org,2002:merge" <https://yaml.org/type/merge.html>
     public static let merge: Tag.Name  = "tag:yaml.org,2002:merge"
-    /// "tag:yaml.org,2002:omap" <http://yaml.org/type/omap.html>
+    /// "tag:yaml.org,2002:omap" <https://yaml.org/type/omap.html>
     public static let omap: Tag.Name  = "tag:yaml.org,2002:omap"
-    /// "tag:yaml.org,2002:pairs" <http://yaml.org/type/pairs.html>
+    /// "tag:yaml.org,2002:pairs" <https://yaml.org/type/pairs.html>
     public static let pairs: Tag.Name  = "tag:yaml.org,2002:pairs"
-    /// "tag:yaml.org,2002:set". <http://yaml.org/type/set.html>
+    /// "tag:yaml.org,2002:set". <https://yaml.org/type/set.html>
     public static let set: Tag.Name  = "tag:yaml.org,2002:set"
-    /// "tag:yaml.org,2002:timestamp" <http://yaml.org/type/timestamp.html>
+    /// "tag:yaml.org,2002:timestamp" <https://yaml.org/type/timestamp.html>
     public static let timestamp: Tag.Name  = "tag:yaml.org,2002:timestamp"
-    /// "tag:yaml.org,2002:value" <http://yaml.org/type/value.html>
+    /// "tag:yaml.org,2002:value" <https://yaml.org/type/value.html>
     public static let value: Tag.Name  = "tag:yaml.org,2002:value"
-    /// "tag:yaml.org,2002:yaml" <http://yaml.org/type/yaml.html> We don't support this.
+    /// "tag:yaml.org,2002:yaml" <https://yaml.org/type/yaml.html> We don't support this.
     public static let yaml: Tag.Name  = "tag:yaml.org,2002:yaml"
 }
 

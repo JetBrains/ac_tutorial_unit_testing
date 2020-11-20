@@ -207,7 +207,7 @@ yaml_parser_update_buffer(yaml_parser_t *parser, size_t length)
 
                     /*
                      * Decode a UTF-8 character.  Check RFC 3629
-                     * (http://www.ietf.org/rfc/rfc3629.txt) for more details.
+                     * (https://www.ietf.org/rfc/rfc3629.txt) for more details.
                      *
                      * The following table (taken from the RFC) is used for
                      * decoding.
@@ -305,7 +305,7 @@ yaml_parser_update_buffer(yaml_parser_t *parser, size_t length)
                     /*
                      * The UTF-16 encoding is not as simple as one might
                      * naively think.  Check RFC 2781
-                     * (http://www.ietf.org/rfc/rfc2781.txt).
+                     * (https://www.ietf.org/rfc/rfc2781.txt).
                      *
                      * Normally, two subsequent bytes describe a Unicode
                      * character.  However a special technique (called a

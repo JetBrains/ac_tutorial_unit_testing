@@ -2,7 +2,7 @@
 
 ![Yams](https://raw.githubusercontent.com/jpsim/Yams/master/yams.jpg)
 
-A sweet and swifty [YAML](http://yaml.org/) parser built on
+A sweet and swifty [YAML](https://yaml.org/) parser built on
 [LibYAML](https://github.com/yaml/libyaml).
 
 [![Azure Pipelines](https://dev.azure.com/jpsim/Yams/_apis/build/status/jpsim.Yams)](https://dev.azure.com/jpsim/Yams/_build/latest?definitionId=1)
@@ -146,4 +146,4 @@ Both Yams and libYAML are MIT licensed.
 [Codable]: https://developer.apple.com/documentation/foundation/archives_and_serialization/encoding_and_decoding_custom_types
 [JSONEncoder]: https://developer.apple.com/documentation/foundation/jsonencoder
 [PropertyListEncoder]: https://developer.apple.com/documentation/foundation/propertylistencoder
-[Nodes Spec]: http://www.yaml.org/spec/1.2/spec.html#id2764044
+[Nodes Spec]: https://www.yaml.org/spec/1.2/spec.html#id2764044
